@@ -795,9 +795,14 @@ section {
   overflow: hidden;
   height: 260px;
 }
+#team .member .pic4 {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 160px;
+}
 
 #team .member .pic img {
-  max-width: 100%;
+  max-width: 50%;
 }
 
 #team .member h4 {
@@ -826,6 +831,12 @@ section {
 #team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+.imgs {
+  vertical-align: middle;
+  border-style: none;
+  width: 188px;
+  height: 127px;
 }
 
 /* Contact Section
@@ -1108,4 +1119,13 @@ section {
   position: relative;
   top: 0.08rem;
   color: rgb(180, 207, 27);
+}
+.wrapper {
+  position: relative;
+}
+
+.wrapper img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
