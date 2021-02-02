@@ -50,6 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff url("../img/preloader.svg") no-repeat center center;
 }
 
+
 /* Back to top button */
 .back-to-top {
   position: fixed;
@@ -103,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-logo img {
-  max-width: 100%;
+  max-width: 50%;
 }
 
 #hero .hero-container {
@@ -508,7 +509,8 @@ section {
 #about .about-title {
   color: #333;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 26px;
+  text-transform: none;
 }
 
 #about .about-text {
